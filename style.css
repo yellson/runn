@@ -1,0 +1,130 @@
+.navigation_title_main {
+font-family: Libre Barcode 128 Text;   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.stars, .twinkling {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.stars {
+    background:#000 url(https://i.postimg.cc/hhFD7Nkf/apps-47636-13819498107583324-fb06b53a-4974-4acb-85e6-f6f363f85ab6-edec48d0-ec35-4a1f-8bf5-c455987b4a.png) repeat top center;
+    z-index: 0;
+  }
+  
+  .twinkling {
+    background-image: url(https://i.postimg.cc/CLpNr4PF/twinkling.png);
+    animation: 3s twinkle infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes twinkle {
+    from {backrgound-position: 0}
+    to {background-position: -100px 0}
+  }
+
+  .logo {
+    margin-top: 70px;
+    padding: 0;
+    
+  }
+
+  .border{
+    height: 700px;
+    margin-top: 300px;
+  }
+  
+  img{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 0px;
+    right: 35px;
+   
+  }
+
+  .norer {
+    background-position: 500px;
+  }
+  .color {
+    color: white;
+    margin-left:60px;
+    position: relative;
+    top: 200px;
+    font-size: 150px;
+  
+  }
+
+  .colorr {
+    color: white;
+    position: relative;
+    top: 400px;
+    font-size: 20px;
+    margin-left:60px;
+  }
+  h1 { 
+    font-family: Kenia; font-size: 100px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+  }
+
+  .shrift {
+    position: relative;
+    top: 100px;
+  }
+  .navigation > ul > li > a {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+    margin-top: 0.90em;
+    margin-right: 100px;
+    
+  }
+  
+  .navigation > ul > li {
+    display:inline-block;
+  }
+
+.body{
+max-height:100vh
+}
+
+.navigation_word{
+  color: #ffffff;
+}
+
+
+
+.logo_one{
+  height: 600px;
+  width: 700px;
+  margin-top: 800px;
+}
+
+.room_style{
+  color:black;
+}
+img { 
+  max-width: 100%; 
+  width: 300px;
+  }
+  img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
